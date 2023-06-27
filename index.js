@@ -14,6 +14,9 @@ app.get("/about", (req,res)=>{
     res.send("hello about")
 })
 
+
 app.listen(5000,()=>{
     console.log("loading")
 })
+
+module.exports = app;
